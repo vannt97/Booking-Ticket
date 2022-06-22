@@ -1,0 +1,10 @@
+.openModal {
+  opacity: 1;
+  transition: all 2s;
+}
+
+.closeModal {
+  transition: all 2s;
+  opacity: 0;
+  pointer-events: none;
+}

@@ -1,0 +1,16 @@
+.text-category {
+  @apply text-purple-600 font-bold;
+}
+.text-heading-cyber {
+  @apply text-xl font-bold text-black;
+}
+
+.text-content {
+  @apply text-gray-600;
+}
+.box-text-bottom {
+  @apply p-3 flex justify-between bg-gray-200 items-center;
+}
+.custom-button {
+  @apply p-3 bg-purple-500 rounded-md text-white font-bold;
+}
