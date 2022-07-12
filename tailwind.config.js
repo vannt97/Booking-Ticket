@@ -234,7 +234,14 @@ module.exports = {
       150: "1.5",
       200: "2",
     },
-    container: {},
+    container: {
+      screens: {
+        DEFAULT: "1024px",
+        sm: "600px",
+        md: "728px",
+        lg: "984px",
+      },
+    },
     content: {
       none: "none",
     },

@@ -1,0 +1,5 @@
+export const LAY_DANH_SACH_PHONG_VE = "LAY_DANH_SACH_PHONG_VE";
+export const DAT_GHE = "DAT_GHE";
+export const RESET_DANH_SACH_GHE_CHON = "RESET_DANH_SACH_GHE_CHON";
+export const CHANGE_TAB_ACTIVE = "CHANGE_TAB_ACTIVE";
+export const CHANGE_TAB = "CHANGE_TAB";

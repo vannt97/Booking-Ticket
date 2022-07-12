@@ -1,0 +1,57 @@
+.trapezoid {
+  border-bottom: 50px solid gray;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 100%;
+  opacity: 0.2;
+  filter: drop-shadow(2px 3px 44px rgba(49, 47, 47, 0.74));
+}
+
+.ghe {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(123, 122, 122);
+  color: white;
+  margin: 15px;
+}
+.gheVip {
+  background-color: rgb(228, 74, 8);
+}
+.gheDaDat {
+  background-color: rgb(232, 76, 76) !important;
+  cursor: no-drop;
+  pointer-events: none;
+}
+
+.gheDangDat {
+  background-color: rgb(18, 176, 18);
+}
+.chuThich div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chuThich div div {
+  display: inline-block;
+  margin: 0;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .customTab > .ant-tabs-top > .ant-tabs-nav,
+.customTab .ant-tabs-bottom > .ant-tabs-nav,
+.customTab > .ant-tabs-top > div > .ant-tabs-nav,
+.customTab .ant-tabs-bottom > div > .ant-tabs-nav {
+  margin: 0 !important;
+} */
+
+.tabBarCustTom {
+  margin-left: 20px;
+  margin-right: 20px;
+}
